@@ -5,7 +5,7 @@ const project = new AwsCdkConstructLibrary({
   authorAddress: 'rf@romanfilippov.com',
   cdkVersion: '1.73.0',
   defaultReleaseBranch: 'main',
-  jsiiFqn: "projen.AwsCdkConstructLibrary",
+  jsiiFqn: 'projen.AwsCdkConstructLibrary',
   name: 'selling-partner-api-cdk',
   repositoryUrl: 'https://github.com/rf/selling-partner-api-cdk.git',
 
