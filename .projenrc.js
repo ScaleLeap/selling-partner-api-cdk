@@ -8,7 +8,7 @@ const project = new AwsCdkConstructLibrary({
   jsiiFqn: 'projen.AwsCdkConstructLibrary',
   name: '@scaleleap/selling-partner-api-cdk',
   repositoryUrl: 'https://github.com/ScaleLeap/selling-partner-api-cdk.git',
-
+  releaseBranches: ['master'],
   cdkDependencies: [
     '@aws-cdk/aws-iam',
     '@aws-cdk/core',
