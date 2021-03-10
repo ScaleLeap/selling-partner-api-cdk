@@ -1,5 +1,5 @@
 {
-  "name": "selling-partner-api-cdk",
+  "name": "@scaleleap/selling-partner-api-cdk",
   "repository": {
     "type": "git",
     "url": "https://github.com/ScaleLeap/selling-partner-api-cdk.git"
