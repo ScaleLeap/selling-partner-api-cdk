@@ -23,7 +23,7 @@ export class SellingPartnerAPIUser extends cdk.Construct {
      * Step 2. Create an IAM user
      * @link https://github.com/amzn/selling-partner-api-docs/blob/main/guides/developer-guide/SellingPartnerApiDeveloperGuide.md#step-2-create-an-iam-user
      */
-    this.user = new iam.User(this, 'User', { userName: props?.userName });
+    this.user = new iam.User(this, 'User', props);
 
     /**
      * Step 4. Create an IAM role
