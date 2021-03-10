@@ -4,7 +4,7 @@ import * as iam from '@aws-cdk/aws-iam';
 import { SellingPartnerAPIRole } from '../src'
 
 /**
- * For user based auth.
+ * For role based auth, e.g. inside a Lambda.
  */
 export class SellingPartnerAPIStack extends cdk.Stack {
   constructor(scope: cdk.App, id: string, properties?: cdk.StackProps) {
