@@ -7,7 +7,7 @@ const project = new AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkConstructLibrary',
   name: 'selling-partner-api-cdk',
-  repositoryUrl: 'https://github.com/rf/selling-partner-api-cdk.git',
+  repositoryUrl: 'https://github.com/ScaleLeap/selling-partner-api-cdk.git',
 
   /* AwsCdkConstructLibraryOptions */
   // cdkAssert: true,                                                          /* Install the @aws-cdk/assert library? */

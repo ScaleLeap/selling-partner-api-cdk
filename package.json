@@ -2,7 +2,7 @@
   "name": "selling-partner-api-cdk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rf/selling-partner-api-cdk.git"
+    "url": "https://github.com/ScaleLeap/selling-partner-api-cdk.git"
   },
   "scripts": {
     "projen": "npx projen",
