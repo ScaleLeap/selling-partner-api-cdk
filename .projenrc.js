@@ -2,7 +2,7 @@ const { AwsCdkConstructLibrary } = require('projen');
 
 const project = new AwsCdkConstructLibrary({
   author: 'Roman Filippov',
-  authorAddress: 'rf@romanfilippov.com',
+  authorAddress: 'roman@scaleleap.com',
   cdkVersion: '1.73.0',
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkConstructLibrary',
