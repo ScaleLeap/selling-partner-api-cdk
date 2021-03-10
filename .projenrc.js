@@ -9,6 +9,11 @@ const project = new AwsCdkConstructLibrary({
   name: '@scaleleap/selling-partner-api-cdk',
   repositoryUrl: 'https://github.com/ScaleLeap/selling-partner-api-cdk.git',
 
+  cdkDependencies: [
+    '@aws-cdk/aws-iam',
+    '@aws-cdk/core',
+  ],
+
   /* AwsCdkConstructLibraryOptions */
   // cdkAssert: true,                                                          /* Install the @aws-cdk/assert library? */
   // cdkDependencies: undefined,                                               /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
