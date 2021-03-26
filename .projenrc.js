@@ -3,7 +3,7 @@ const { AwsCdkConstructLibrary } = require('projen');
 const project = new AwsCdkConstructLibrary({
   author: 'Roman Filippov',
   authorAddress: 'roman@scaleleap.com',
-  cdkVersion: '1.73.0',
+  cdkVersion: '1.95.1',
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkConstructLibrary',
   name: '@scaleleap/selling-partner-api-cdk',
